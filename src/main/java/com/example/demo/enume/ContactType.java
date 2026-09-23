@@ -1,7 +1,8 @@
 package com.example.demo.enume;
 
 public enum ContactType {
-    phone,
+    mobile,
+    direct_line,
     email,
-    linkedin,
+    linkedin
 }
