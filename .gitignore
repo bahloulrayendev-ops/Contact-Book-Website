@@ -22,6 +22,8 @@ intern/application-local.properties
 .idea/
 .junie/
 *.iml
+*.iws
+*.ipr
 
 # OS files
 .DS_Store
@@ -30,3 +32,26 @@ Thumbs.db
 # Generated/temporary files
 *.log
 coverage/
+
+# Maven wrapper and build exceptions
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
