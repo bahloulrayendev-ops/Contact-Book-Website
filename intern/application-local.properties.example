@@ -1,0 +1,4 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/DataInfoEgypt
+spring.datasource.username=postgres
+spring.datasource.password=replace-with-your-local-postgres-password
+jwt.secret=replace-with-a-private-random-secret-of-at-least-32-characters

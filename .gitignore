@@ -1,0 +1,32 @@
+# Node/frontend
+frontend/node_modules/
+frontend/.output/
+frontend/.tanstack/
+frontend/.wrangler/
+frontend/dist/
+frontend/.vite/
+
+# Java/backend build outputs
+intern/target/
+**/target/
+**/build/
+
+# Local env and secrets
+intern/application-local.properties
+**/.env
+**/.env.*
+**/application-local.properties
+
+# IDE/editor files
+.vscode/
+.idea/
+.junie/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated/temporary files
+*.log
+coverage/
